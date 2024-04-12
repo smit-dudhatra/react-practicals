@@ -1,0 +1,61 @@
+vite will have main.jsx
+
+while npm will have index.js
+
+
+npm steps
+
+npm install -g npx
+npx create-react-app <my-app>
+cd my-app
+npm start
+
+vite steps
+
+npm create vite@latest
+cd <project name asked during installation process>
+npm i
+npm run dev
+
+strucutre difference
+
+npm install >> entry point >> index.js >> App component is called in this file
+vite install >> entry point >> main.jsx >> App component is called in this file
+
+npm install will have node_modeules folder by default
+vite install will not have node_modeules folder by default
+
+npm install >> index.html >> public/index.html >> div id=root
+vite install >> index.html >> /index.html - at root path >> div id = root
+
+both will have index.css
+
+npm install >> index.css is included in >> index.js
+vite install >> index.css is included in >> main.jsx
+
+flow for react app starting
+
+npm install
+
+index.html >> "index.js" >> App component >> ....
+
+https://medium.com/@pradumnabajoria/how-does-index-js-run-in-a-react-app-fc9ca20001c8#:~:text=js%20file%20runs%20without%20being,html%20to%20link%20the%20files.
+
+index.js is not included directly in the index.html
+pls read this article
+
+vite install
+index.html >> main.jsx (included in the index.html via script tag) >>  App component >> ....
+
+
+npm install
+
+no script or stylesheet is included in index.html file
+index.css is included in the index.js file
+
+vite install
+
+main.jsx is inlcuded in the index.html file
+index.css is included in the main.jsx file
+
+
