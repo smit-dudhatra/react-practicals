@@ -50,7 +50,7 @@ index.html >> main.jsx (included in the index.html via script tag) >>  App compo
 
 npm install
 
-no script or stylesheet is included in index.html file
+no script or stylesheet is included in index.html file (index.js is included under the hood in index.html)
 index.css is included in the index.js file
 
 vite install
